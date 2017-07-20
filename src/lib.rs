@@ -11,7 +11,7 @@ macro_rules! birth_foo {
     ($n:expr) => {
         #[derive(Custom)]
         struct Foo {
-            n: [i32; numberalize!(n)]
+            n: [i32; numberalize!($n)]
         }
     }
 }
