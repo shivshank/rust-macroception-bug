@@ -1,0 +1,7 @@
+[package]
+name = "macroception_invocation_bug"
+version = "0.1.0"
+authors = ["shivshank"]
+
+[dependencies]
+custom-derive = { path = "custom-derive" }
